@@ -1,5 +1,5 @@
 # Desenvolvendo o Dio Bank
-desenvolvido por [Nathally Souza](https://github.com/nathyts) com alterações de [Wellington Gaboardi]
+desenvolvido por [Nathally Souza] com alterações de [Wellington Gaboardi]
 
 #### Projeto desenvolvido com conceitos básicos de typescript
 
@@ -31,8 +31,11 @@ desenvolvido por [Nathally Souza](https://github.com/nathyts) com alterações d
   - Esta conta não deve receber novos atributos
   - Esta conta terá um método de depósito, que acresce 10 a mais ao valor informado para depósito. (Ex: Um depósito de 100, será de 110 no final)
 
-[ ] Todos os atributos de qualquer conta devem ser privados
+[X] Todos os atributos de qualquer conta devem ser privados
 
-[ ] Os atributos name e accountNumber não podem ser alterados internamente ou externamente
+[X] Os atributos name e accountNumber não podem ser alterados internamente ou externamente
 
-[ ] Criar instancias para cada um dos tipos de conta no app.ts e executar os métodos possíveis.
+[X] Criar instancias para cada um dos tipos de conta no app.ts e executar os métodos possíveis.
+
+###Observação
+Foi necessário mudar o tsconfig.json e package.json para rodar o comando Node com [ESM], ao invés do ts-node-dev que não está mais compatível.
